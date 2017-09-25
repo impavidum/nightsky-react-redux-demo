@@ -1,0 +1,50 @@
+@import '../../scss/base';
+
+.nav-component {
+
+  .navbar-brand {
+    padding: 8px 15px;
+    img {
+      height: 34px;
+    }
+  }
+
+  #log-in {
+    margin-left: 22px;
+  }
+
+  .navbar {
+    height: 54px;
+  }
+
+  .login-sm {
+    display: none;
+  }
+
+  .login-lg {
+    display: block;
+  }
+  
+
+  @media (max-width: 768px) {
+    #log-in {
+      margin-left: 0;
+    }
+    .login-lg {
+      display: none;
+    }
+    .login-sm {
+      display: block;
+    }
+    .navbar {
+      height: unset;
+    }
+    
+  } 
+
+  .no-underline {
+      text-decoration: none !important;
+
+  }
+  
+}

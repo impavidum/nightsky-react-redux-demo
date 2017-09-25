@@ -1,0 +1,72 @@
+@import '../scss/base';
+
+#app {
+    background-color: $background;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.app-component {
+  min-height: 100vh;
+  .order-details {
+    padding: 15px;
+    text-align: center;
+    .logo {
+      width: 80px;
+    }
+    i {
+      font-size: 20px;
+    }
+    .btn-link {
+      color: #e1e1e1;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+    .btn-link:hover {
+      text-decoration: none;
+    }
+
+  }
+  .map-wrap {
+    margin-bottom: 30px;
+    img {
+      width: 100%;  
+    
+    }
+  }
+}
+
+.footer {
+  background-color: $press-primary;
+      padding-top: 50px;
+    padding-bottom: 20px;
+ h3 {
+   font-weight: 600;
+    margin: 18px 0 40px;
+    color: $press-white;
+    font-size: 14px;
+ }
+ a {
+   color: $press-navbar-text;
+ }
+ p {
+       margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: left;
+    font-size: 11px;
+    color: #fff;
+    padding-top: 30px;
+ }
+ ul {
+  list-style-type: none;
+  padding: 0;
+  li {
+    margin: 18px 0;
+  }
+ }
+ img {
+    width: 160px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+ }
+}

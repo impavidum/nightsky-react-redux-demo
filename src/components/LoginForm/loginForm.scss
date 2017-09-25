@@ -1,0 +1,24 @@
+@import '../../scss/base';
+
+.login-form {
+  margin-bottom: 5em;
+  .panel {
+    padding: $press-panel-body-padding;
+  }
+  p {
+    margin-top: 1em;
+    strong {
+    color: $press-primary;
+  }
+  i {
+    font-size: 14px;
+    transform: translateY(2px);
+  }
+  }
+
+@media (max-width: 768px) {
+  max-width: 500px;
+  @include h-center;
+}
+  
+}
