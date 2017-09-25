@@ -1,6 +1,6 @@
 # Front End Environment using React, Redux, Redux Sagas, Sass, and Bootstrap
-The front end repository for the press customer web app.
 
+A demo for The Night Sky.
 
 ## Build and Run
 
